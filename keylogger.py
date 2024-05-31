@@ -12,7 +12,8 @@ while True:
     data+= f"{a} "
     if len(data) > 20:
         print(data)
-        pram = {"chat_id" : "1106422953" , "text" :data}
+        # GET THE CHAT ID BY SENDING THE GET REQUEST TO THE /GETUPDATES END POINT
+        pram = {"chat_id" : "YOUR_CHAT_ID" , "text" :data}
         print(url,pram)
         res = requests.post(url,pram)
         if res.status_code == 200:
