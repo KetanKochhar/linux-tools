@@ -1,0 +1,10 @@
+https://www.facebook.com/
+https://www.instagram.com
+https://twitter.com
+https://www.linkedin.com
+#
+javascript:void(0)
+https://api.whatsapp.com
+tel:
+mailto:
+https://youtu.be
