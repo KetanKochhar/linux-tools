@@ -1,0 +1,98 @@
+*Welcome to Network Sniffer*
+
+Network Sniffer is a powerful tool that allows you to scan your local network, discover active hosts, and scan open ports on those hosts. This tool is designed to be easy to use and provides a range of features to help you manage your network.
+
+*Features:*
+
+Network Scanning: Scan your local network to discover active hosts and their IP and MAC addresses.
+
+Host Scanning: Scan a specific host to gather more information about it, including its hostname and open ports.
+
+Port Scanning: Scan a range of ports on a host to identify which ones are open and which ones are closed.
+
+User-Friendly Interface: The script provides a simple and intuitive menu-driven interface that makes it easy to use, even for those without extensive networking knowledge.
+
+
+*Usage:*
+
+
+1. Network Scanning:
+
+     - Select option 1 from the main menu to scan your local network.
+     - Enter the first three octets of your network IP address (e.g., 192.168.1).
+     - Enter the last IP address you want to scan (e.g., 255).
+     - The script will scan the network and display a list of active hosts, including their IP and MAC addresses.
+
+          a. Active Hosts 
+               + This option will give you the list of active hosts that were found from the DHCP server.
+
+          b. Down Hosts 
+               + This option will give you the list of down hosts that were found from the DHCP server.
+
+          c. All Information 
+               + This option will give you all the information, including IP, MAC, and name (if found).
+
+          d. Exit 
+               + This option will return you to the main menu.
+
+
+2. IP Information
+
+     - This option will give you all the information about the IP, including MAC address and hostname.
+     - Enter the IP that you want to scan.
+     - Information will be shown on your screen in the format of (IP, MAC, name of the device).
+
+
+3. Open Port Scanner
+
+     - This will give you information about open ports from an IP or a website.
+     - Enter the IP or website for which you want to scan open ports.
+     - Select the scan type from:
+          a. Common Ports Scan 
+               + This option will scan common ports with names stored in cPorts.json file. 
+               + After successfully completing the port scan, the result will be printed on a blank screen.
+
+          b. Full Ports Scan 
+               + This option will scan all ports from 1 to 65535. 
+               + This will take time for scanning all ports. 
+               + This will scan all open ports, even if their names are not known. 
+               + After successfully completing the port scan, the result will be printed on a blank screen.
+
+          c. Custom Ports Scan 
+               + This option will let the user define the port scan range. 
+               + First, enter the port to start scanning (e.g., 1). 
+               + Now, enter the last port for port scanning (e.g., 500). 
+               + This will scan all open ports, even if their names are not known. 
+               + After successfully completing the port scan, the result will be printed on a blank screen.
+
+          d. Exit 
+               + This option will return you to the main menu.
+
+
+4. Hostname
+
+     - This option will give you the name of the host if available.
+     - Enter the IP of the host that you want to check the name.
+     - Information will be shown on the screen.
+
+
+5. Help
+
+     - Open this message.
+
+
+6. Exit
+
+     - Exits the program.
+
+
+*Tips and Tricks:*
+
+     - Make sure you have the necessary permissions to run the script.
+     - Be cautious when scanning networks and hosts, as this may be against your network's terms of service.
+     - Use the script responsibly and only for legitimate purposes.
+     - If you see multiple outputs on the screen, try restarting the program.
+
+
+
+     
